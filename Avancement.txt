@@ -1,0 +1,17 @@
+04/22/2022
+Starting the coding. I used the Landing page on the pdf.
+I try to create the landing page.
+Jumbotron needs to be finish.
+-------------------------------------------------------------------------
+
+04/26/2022
+
+Navbar finished
+
+-------------------------------------------------------------------------
+
+04/27/2022
+
+Summary page design is finished (body + footer).
+3 pages created with link.
+Need to find something to introduce people before the 3 collapses.

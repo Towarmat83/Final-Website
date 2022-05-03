@@ -1,0 +1,41 @@
+Subject:
+
+My website will be a guide for Minecraft beginners.
+It will explain everything about how to start, what are the goals 
+and how to succeed.
+
+Index Page:
+
+	Minecraft in general, what is it, where you can buy it 
+	and how to install it. 
+	Summary of the different pages of the website. 
+
+
+New Page:
+
+	Introduction of the home menu with the differents 
+	options availables (singleplayer, settings, multiplayer, minecraft Realms).
+	Depending on the time, explaination of the settings in details to have 
+	a better gaming experience.
+
+
+New Page: 
+	
+	Starting of the tutorial with how to create a new world, the different options 
+	availables.
+
+
+New Page:
+
+	Creating a new world and explaination of how to play in details. 
+	This part will be divided in differents pages.
+
+
+New Page:
+
+	About me and how to contact me. 
+
+
+The tutorial will be for the last version actually: 1.18(.2).
+
+
