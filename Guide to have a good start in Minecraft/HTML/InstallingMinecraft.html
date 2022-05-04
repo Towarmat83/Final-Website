@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -57,11 +57,19 @@
 
     <div class="body_content">
         <div class="navigation">
-            <nav>
-                <h4>
-                    On this page chat des pots
-                </h4>
+            <nav class="nav_navigation">
+                <h4>On this page</h4>
                 <hr>
+                <ul>
+                    <h6 data-bs-toggle="collapse" href="#openStep1" role="button" aria-expanded="false">> Going to Minecraft's website</h6>
+                    <ul class="collapse" id="openStep1">
+                        <li><a href="#step1">Going to Minecraft's website</a></li>
+                        <li>chat</li>
+                        <li>chien</li>
+                    </ul>
+                    <h6>> <a href="#step2">Buying Minecraft for PC</a></h6>
+                    <h6>> <a href="#step3">Downloading Minecraft for PC</a></h6>
+                </ul>
             </nav>
         </div>
         <div class="homeMenuContent">
@@ -71,7 +79,7 @@
             <p>
                 This part explains how installing Minecraft on your computer, let's start !
             </p>
-            <h4><u>Step 1:</u> Going to Minecraft's website</h4>
+            <h4 id="step1"><u>Step 1:</u> Going to Minecraft's website</h4>
             <ul>
                 <li>Go to <a href="https://www.minecraft.net" target="_blank">minecraft.net</a> on your search bar</li>
                 <li>Click on the green button 'Get Minecraft' at the right top <img src="../IMG/green_button.png" alt="Green button 'Get Minecraft' on Minecraft's website" height="70" width="200"></li>
@@ -80,14 +88,14 @@
                 <li>For the following, the guide will be on the Java edition</li>
             </ul>
             <hr>
-            <h4><u>Step 2:</u> Buying Minecraft for PC </h4>
+            <h4 id="step2"><u>Step 2:</u> Buying Minecraft for PC </h4>
             <ul>
                 <li>The game cost actually 23.95€, if you already have a account click here or click on 'Buy Minecraft' then create your account so you will be able to use your account on any computer ! <img src="../IMG/buying_minecraft.png" alt="Page which you can buy the game and/or sign up for the Xbow Game Pass for PC"
                         height="320" width="600"> </li>
                 <li>When your account will be finished and you will buy the game, you will be able to download the game</li>
             </ul>
             <hr>
-            <h4><u>Step 3:</u> Downloading Minecraft for PC </h4>
+            <h4 id="step3"><u>Step 3:</u> Downloading Minecraft for PC </h4>
             <ul>
                 <li>Click on the green button 'Download' and the download will start. Wait the end of the download<img src="../IMG/downloading_minecraft.png" alt="Page which you can download the game and/or join for the Xbow Game Pass for PC" height="320"
                         width="600"> </li>
