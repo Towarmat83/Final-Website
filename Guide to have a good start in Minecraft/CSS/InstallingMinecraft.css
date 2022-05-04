@@ -88,16 +88,19 @@ nav ul li a {
     padding: 2% 0 2% 0;
 }
 
-.nav_navigation ul {
+.ul_navigation {
     text-align: start;
 }
 
-.nav_navigation a {
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.ul_navigation h6 {
     line-height: 160%;
 }
+
+
+/* font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 160%; */
 
 .nav_navigation a:hover {
     text-decoration: underline;
