@@ -12,7 +12,7 @@
     <link href="../CSS/InstallingMinecraft.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
     <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -57,27 +57,33 @@
 
     <div class="body_content">
         <div class="navigation">
-            <nav class="nav_navigation">
+            <nav>
                 <h4>On this page</h4>
                 <hr>
                 <ul class="ul_navigation">
                     <h6 data-bs-toggle="collapse" href="#openStep1" role="button" aria-expanded="false">▼ Going to Minecraft's website</h6>
                     <ul class="collapse" id="openStep1">
-                        <li><a href="#step1">Going to Minecraft's website</a></li>
-                        <li>chat</li>
-                        <li>chien</li>
+                        <li><a href="#step1">Go to the step</a></li>
+                        <li><a href="#step1.1">Minecraft.net</a></li>
+                        <li><a href="#step1.2">Get Minecraft</a></li>
+                        <li><a href="#step1.3">Choose your plateform</a></li>
+                        <li><a href="#step1.4">Java Edition</a></li>
                     </ul>
                     <h6 data-bs-toggle="collapse" href="#openStep2" role="button" aria-expanded="false">▼ Buying Minecraft for PC</h6>
                     <ul class="collapse" id="openStep2">
-                        <li><a href="#step2">Buying Minecraft for PC</a></li>
-                        <li>chat</li>
-                        <li>chien</li>
+                        <li><a href="#step2">Go to the step</a></li>
+                        <li><a href="#step2.1">Buy Minecraft</a></li>
+                        <li><a href="#step2.2">Account finished</a></li>
                     </ul>
                     <h6 data-bs-toggle="collapse" href="#openStep3" role="button" aria-expanded="false">▼ Downloading Minecraft for PC</h6>
                     <ul class="collapse" id="openStep3">
-                        <li><a href="#step3">Downloading Minecraft for PC</a></li>
-                        <li>chat</li>
-                        <li>chien</li>
+                        <li><a href="#step3">Go to the step</a></li>
+                        <li><a href="#step3.1">Download</a></li>
+                        <li><a href="#step3.2">Run the application</a></li>
+                    </ul>
+                    <h6 data-bs-toggle="collapse" href="#openStep4" role="button" aria-expanded="false">▼ Final result</h6>
+                    <ul class="collapse" id="openStep4">
+                        <li><a href="#step4">Go to the step</a></li>
                     </ul>
                 </ul>
             </nav>
@@ -91,25 +97,41 @@
             </p>
             <h4 id="step1"><u>Step 1:</u> Going to Minecraft's website</h4>
             <ul>
-                <li>Go to <a href="https://www.minecraft.net" target="_blank">minecraft.net</a> on your search bar</li>
-                <li>Click on the green button 'Get Minecraft' at the right top <img src="../IMG/green_button.png" alt="Green button 'Get Minecraft' on Minecraft's website" height="70" width="200"></li>
-                <li>Choose your plateform. For us, it will be 'Computer'</li>
-                <li>Now you can choose between two differents plateforms: Java edition and Windows 10 edition <img src="../IMG/plateform_choose.png" alt="The two plateform are shown, you can choose between the two plateforms" height="300" width="600"> </li>
-                <li>For the following, the guide will be on the Java edition</li>
+                <li id="step1.1">Go to <a href="https://www.minecraft.net" target="_blank">minecraft.net</a> on your search bar</li>
+                <li id="step1.2">Click on the green button 'Get Minecraft' at the right top <img src="../IMG/green_button.png" alt="Green button 'Get Minecraft' on Minecraft's website" height="70" width="200"></li>
+                <li id="step1.3">Choose your plateform. For us, it will be 'Computer'</li>
+                <li>Now you can choose between two differents plateforms: Java Edition and Windows 10 edition <img src="../IMG/plateform_choose.png" alt="The two plateform are shown, you can choose between the two plateforms" height="300" width="600"> </li>
+                <li id="step1.4">For the following, the guide will be on the Java Edition</li>
             </ul>
             <hr>
             <h4 id="step2"><u>Step 2:</u> Buying Minecraft for PC </h4>
             <ul>
-                <li>The game cost actually 23.95€, if you already have a account click here or click on 'Buy Minecraft' then create your account so you will be able to use your account on any computer ! <img src="../IMG/buying_minecraft.png" alt="Page which you can buy the game and/or sign up for the Xbow Game Pass for PC"
-                        height="320" width="600"> </li>
-                <li>When your account will be finished and you will buy the game, you will be able to download the game</li>
+                <li id="step2.1">The game cost actually 23.95€, if you already have a account <a href="#step3">click here</a> or click on 'Buy Minecraft' then create your account so you will be able to use your account on any computer ! <img src="../IMG/buying_minecraft.png"
+                        alt="Page which you can buy the game and/or sign up for the Xbow Game Pass for PC" height="320" width="600"> </li>
+                <li id="step2.2">When your account will be finished and you will buy the game, you will be able to download the game</li>
             </ul>
             <hr>
             <h4 id="step3"><u>Step 3:</u> Downloading Minecraft for PC </h4>
             <ul>
-                <li>Click on the green button 'Download' and the download will start. Wait the end of the download<img src="../IMG/downloading_minecraft.png" alt="Page which you can download the game and/or join for the Xbow Game Pass for PC" height="320"
+                <li id="step3.1">Click on the green button 'Download' and the download will start. Wait the end of the download<img src="../IMG/downloading_minecraft.png" alt="Page which you can download the game and/or join for the Xbow Game Pass for PC" height="320"
                         width="600"> </li>
+                <li id="step3.2">When the download is finished, run the application and follow the steps</li>
             </ul>
+            <hr>
+            <h4 id="step4"><u>Step 4:</u> Final result </h4>
+            <ul>
+                <li>This is the result you should may have before the launch of the game
+                    <img src="../IMG/launcher_minecraft.png" alt="View of Minecraft's laucher before the launch of the game" height="400" width="680">
+                </li>
+            </ul>
+            <hr>
+            <p style="text-align: center;">
+                Congratulations ! <br> You have successed to install Minecraft ! <br> Now, let's play !
+            </p>
+            <div class="d-grid gap-2 col-4 mx-auto">
+                <a href="HomeMenu.html" class="btn btn-primary" role="button" aria-disabled="true">Let's play !</a>
+            </div>
+
 
         </div>
     </div>
@@ -130,6 +152,18 @@
         </div>
     </footer>
 
+    <!-- Return to the top page-->
+    <div>
+        <a id="cRetour" class="cInvisible" href="#top"></a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.onscroll = function() {
+                document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+            };
+        });
+    </script>
 </body>
 
 </html>
