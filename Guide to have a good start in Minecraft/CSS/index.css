@@ -85,3 +85,7 @@ h1 {
 .copyright {
     padding: 10px;
 }
+
+.collapse p {
+    font-size: 1.3em;
+}
