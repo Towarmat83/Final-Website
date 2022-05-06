@@ -58,21 +58,140 @@
     <div class="body_content">
         <div class="navigation">
             <nav>
-                <h4>
-                    On this page
-                </h4>
+                <h4>On this page</h4>
                 <hr>
+                <ul class="ul_navigation">
+                    <h6 data-bs-toggle="collapse" href="#openBrief" role="button" aria-expanded="false">▼ Brief explaination</h6>
+                    <ul class="collapse" id="openBrief">
+                        <li><a href="#brief">Go to the step</a></li>
+                        <li><a href="#parts">The 4 big parts</a></li>
+                        <li><a href="#scenery">Background scenery</a></li>
+                        <li><a href="#version">Version of the game</a></li>
+                        <li><a href="#language_item">Change the language</a></li>
+                        <li><a href="#accessibility_item">Accessibility settings</a></li>
+                    </ul>
+                    <h6 data-bs-toggle="collapse" href="#openSingleplayer" role="button" aria-expanded="false">▼ Singleplayer</h6>
+                    <ul class="collapse" id="openSingleplayer">
+                        <li><a href="#singleplayer">Go to the step</a></li>
+                        <li><a href="#step1">Give a name to your world</a></li>
+                        <li><a href="#step2">Choose your mode</a></li>
+                        <li><a href="#step3">Adjust the difficulty</a></li>
+                        <li><a href="#step4">Cheats</a></li>
+                        <li><a href="#step5">Data Packs</a></li>
+                        <li><a href="#step6">Game Rules</a></li>
+                        <li><a href="#step7">Put your seed</a></li>
+                        <li><a href="#step8">Structures</a></li>
+                        <li><a href="#step9">Choose your world type</a></li>
+                        <li><a href="#step10">Bonus Chest</a></li>
+                        <li><a href="#step11">Import your settings</a></li>
+                        <li><a href="#step12">Create New World</a></li>
+                        <li><a href="#step13">Go back</a></li>
+                    </ul>
+                </ul>
             </nav>
         </div>
         <div class="homeMenuContent">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sed earum animi, voluptate a iste voluptatibus ab veritatis, omnis temporibus vero praesentium. Ipsam magni ea accusantium libero ex amet cumque.</p>
+            <p>
+                This part will explain everything on the home menu of Minecraft. <br> The version of the game is 1.18.2.
+            </p>
+            <h4 id="brief"><u>Brief explaination:</u></h4>
+            <ul>
+                <img src="../IMG/home_menu_minecraft.png" alt="Minecraft's home menu in 1.18.2" class="img1">
+                <p class="text-center" id="parts">The Minecraft's home menu is composed of 4 big parts:</p>
+                <li class="text-center" id="big_parts" style="list-style-type: none;">
+                    <a href="#singleplayer">
+                        <p>Singleplayer</p>
+                    </a>
+                    <a href="#multiplayer">
+                        <p>Multiplayer</p>
+                    </a>
+                    <a href="#options">
+                        <p>Options</p>
+                    </a>
+                    <a href="#realms">
+                        <p>Minecraft Realms</p>
+                    </a>
+                </li>
+                <li id="scenery">
+                    In the background, a random scenery is in a loop
+                </li>
+                <li id="version">
+                    There is the version of the game on the left-bottom, here v1.18.2
+                </li>
+                <li id="language_item">
+                    You can change the language of your game by this button
+                    <img src="../IMG/language_minecraft.png" alt="Button to change the language of the game by the home menu" class="img2">
+                </li>
+                <li id="accessibility_item">
+                    You can have access to the accessibility settings by this button
+                    <img src="../IMG/accessibility_settings.png" alt="Button to have access to the accessibility settings by the home menu" class="img2">
+                </li>
+            </ul>
+            <hr>
+            <h4 id="singleplayer"><u>Singleplayer:</u></h4>
+            <ul class="chat">
+                <p>You decide to start the game, to begin the aventure... </p>
+                <p>Before being immersed in the game, you need to create your world.</p>
+                <img src="../IMG/singleplayer_create_new_world.png" alt="View of create a new world" class="img1">
+                <li id="step1">
+                    You must give a name to your world <br> If you do not give a name, your world will be called 'New_World' by default <br> Can be rename later
+                </li>
+                <li id="step2">
+                    You must choose in which mode you want to play: <b>Survival</b>, <b>Creative</b> or <b>Hardcore</b>.
+                    <ul><b><u>Survival :</u></b> Search for resources, craft, gain levels, health and hunger</ul>
+                    <ul><b><u>Hardcore :</u></b> Same as Survival Mode, locked at hardest difficulty, and one life only</ul>
+                    <ul><b><u>Creative :</u></b> Unlimited resources, free flying and destroy blocks instantly</ul>
+                </li>
+                <li id="step3">
+                    Fourth type of difficulty are existing:
+                    <ul><b><u>Peaceful:</u></b> Hostile mobs cannot spawn, you cannot lose hunger and you automatically restore your health</ul>
+                    <ul><b><u>Easy:</u></b> Hostile mobs sometimes spawn </ul>
+                    <ul><b><u>Normal:</u></b> Hostile mobs often spawn </ul>
+                    <ul><b><u>Hard:</u></b> Hostile mobs always spawn </ul>
+                    <u>Remark:</u><br> Depending on the difficulty, differents parameters in-game can change, like the probability of villager to change into a zombie-villager after being killed by a zombie.
+                </li>
+                <li id="step4">
+                    Allows the <b>Cheats</b> means that you can use commands in game Every types of commands are actually existing like <u>/gamemode'</u> which you can change your mode in-game or <u>/experience</u> which you can give you experience.
+                    <br>
+                    <u>Remark:</u><br> In the Minecraft's community, using the cheats are prohibited, do you really want to cheat on a game ? It's up to you !
+                </li>
+                <li id="step5">
+                    This section is one of the new of the 1.18. In fact, you can play with your textures in-game.
+                </li>
+                <li id="step6">
+                    This section allows you to modify if you want a lot of parameters in-game like the cycle day/night or keeping your inventory after your dead or not. By the command <u>/gamerule</u>, you can change during the game these parameters.
+                </li>
+                <img src="../IMG/singleplayer_create_new_world_2.png" alt="View of create a new world part 2" class="img1">
+                <li id="step7">
+                    Each Minecraft world is unique and there are determinated by they <b>seed</b>. You can enter the number you want on it, the game will creates your world with it. Some seed are better than anothers so if you want to play in a specfic
+                    seed, enter the seed in the form.<br> With <u>/seed</u>, you can know the seed of your world and shared it !
+                </li>
+                <li id="step8">
+                    This sections allows you to have a world with or without structures. There is a lot of structures in Minecraft like villages of donjons. <br>
+                    <b>Playing without disable you to finish the game !</b>
+                </li>
+                <li id="step9">
+                    This parameter is very important because it allows you to choose between different types of world generations. <br> Fifth type of generations are existing:
+                    <ul><b><u>Default:</u></b> Normal world with every existing types of biomes </ul>
+                    <ul><b><u>Superflat:</u></b> Flat world that you can customize with presets parameters. Very useful in creative </ul>
+                    <ul><b><u>Large Biomes:</u></b> Same as the <b>Default</b> but the biomes generated will be bigger </ul>
+                    <ul><b><u>Amplified:</u></b> World with a lot of mountains and floating islands. Requieres a good computer.</ul>
+                    <ul><b><u>Single Biome:</u></b> World with only one biome that you can choose. </ul>
+                </li>
+                <li id="step10">
+                    Give you at the start a chest with some basic loot in it.
+                </li>
+                <li id="step11">
+                    You can import settings from your device to play with your settings !
+                </li>
+                <li id="step12">
+                    After setting your parameters, click on <b>Create New World</b> and your aventure start ! <br> Click here to start the aventure !
+                </li>
+                <li id="step13">
+                    If you click on <b>Cancel</b>, you will go back to the Home menu.
+                </li>
+            </ul>
+            <hr>
         </div>
     </div>
 
@@ -92,6 +211,19 @@
             </div>
         </div>
     </footer>
+
+    <!-- Return to the top page-->
+    <div>
+        <a id="cRetour" class="cInvisible" href="#top"></a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.onscroll = function() {
+                document.getElementById("cRetour").className = (window.pageYOffset > 100) ? "cVisible" : "cInvisible";
+            };
+        });
+    </script>
 
 </body>
 
