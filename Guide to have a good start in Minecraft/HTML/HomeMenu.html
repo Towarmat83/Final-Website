@@ -61,8 +61,8 @@
                 <h4>On this page</h4>
                 <hr>
                 <ul class="ul_navigation">
-                    <h6 data-bs-toggle="collapse" href="#openBrief" role="button" aria-expanded="false">▼ Brief explaination</h6>
-                    <ul class="collapse" id="openBrief">
+                    <h6 data-bs-toggle="collapse" href="#openBrief" role="button" aria-expanded="false">▼ Brief explanation</h6>
+                    <ul class="collapse" id="openBrief" style="list-style-type: square;">
                         <li><a href="#brief">Go to the step</a></li>
                         <li><a href="#parts">The 4 big parts</a></li>
                         <li><a href="#scenery">Background scenery</a></li>
@@ -71,21 +71,30 @@
                         <li><a href="#accessibility_item">Accessibility settings</a></li>
                     </ul>
                     <h6 data-bs-toggle="collapse" href="#openSingleplayer" role="button" aria-expanded="false">▼ Singleplayer</h6>
-                    <ul class="collapse" id="openSingleplayer">
+                    <ul class="collapse" id="openSingleplayer" style="list-style-type: decimal;">
+                        <li><a href="#step1.1">Give a name to your world</a></li>
+                        <li><a href="#step1.2">Choose your mode</a></li>
+                        <li><a href="#step1.3">Adjust the difficulty</a></li>
+                        <li><a href="#step1.4">Cheats</a></li>
+                        <li><a href="#step1.5">Data Packs</a></li>
+                        <li><a href="#step1.6">Game Rules</a></li>
+                        <li><a href="#step1.7">Put your seed</a></li>
+                        <li><a href="#step1.8">Structures</a></li>
+                        <li><a href="#step1.9">Choose your world type</a></li>
+                        <li><a href="#step1.10">Bonus Chest</a></li>
+                        <li><a href="#step1.11">Import your settings</a></li>
+                        <li><a href="#step1.12">Create New World</a></li>
+                        <li><a href="#step1.13">Go back</a></li>
                         <li><a href="#singleplayer">Go to the step</a></li>
-                        <li><a href="#step1">Give a name to your world</a></li>
-                        <li><a href="#step2">Choose your mode</a></li>
-                        <li><a href="#step3">Adjust the difficulty</a></li>
-                        <li><a href="#step4">Cheats</a></li>
-                        <li><a href="#step5">Data Packs</a></li>
-                        <li><a href="#step6">Game Rules</a></li>
-                        <li><a href="#step7">Put your seed</a></li>
-                        <li><a href="#step8">Structures</a></li>
-                        <li><a href="#step9">Choose your world type</a></li>
-                        <li><a href="#step10">Bonus Chest</a></li>
-                        <li><a href="#step11">Import your settings</a></li>
-                        <li><a href="#step12">Create New World</a></li>
-                        <li><a href="#step13">Go back</a></li>
+                    </ul>
+                    <h6 data-bs-toggle="collapse" href="#openMultiplayer" role="button" aria-expanded="false">▼ Multiplayer</h6>
+                    <ul class="collapse" id="openMultiplayer" style="list-style-type: decimal;">
+                        <li><a href="#step2.1">Add a Server</a></li>
+                        <li><a href="#step2.2">Direct Connection</a></li>
+                        <li><a href="#step2.3">Edit & Delete</a></li>
+                        <li><a href="#step2.4">Join a Server</a></li>
+                        <li><a href="#step2.5">Refresh</a></li>
+                        <li><a href="#multiplayer">Go to the step</a></li>
                     </ul>
                 </ul>
             </nav>
@@ -94,10 +103,10 @@
             <p>
                 This part will explain everything on the home menu of Minecraft. <br> The version of the game is 1.18.2.
             </p>
-            <h4 id="brief"><u>Brief explaination:</u></h4>
+            <h4 id="brief"><u>Brief explanation:</u></h4>
             <ul>
                 <img src="../IMG/home_menu_minecraft.png" alt="Minecraft's home menu in 1.18.2" class="img1">
-                <p class="text-center" id="parts">The Minecraft's home menu is composed of 4 big parts:</p>
+                <p class="text-center" id="parts">Minecraft's home menu is composed of 4 big parts:</p>
                 <li class="text-center" id="big_parts" style="list-style-type: none;">
                     <a href="#singleplayer">
                         <p>Singleplayer</p>
@@ -129,69 +138,96 @@
             </ul>
             <hr>
             <h4 id="singleplayer"><u>Singleplayer:</u></h4>
-            <ul class="chat">
+            <ul style="list-style-type: decimal;">
                 <p>You decide to start the game, to begin the aventure... </p>
                 <p>Before being immersed in the game, you need to create your world.</p>
                 <img src="../IMG/singleplayer_create_new_world.png" alt="View of create a new world" class="img1">
-                <li id="step1">
-                    You must give a name to your world <br> If you do not give a name, your world will be called 'New_World' by default <br> Can be rename later
+                <li id="step1.1">
+                    You must give a name to your world. <br> If you do not give a name, your world will be called 'New_World' by default. <br> It can be rename later.
                 </li>
-                <li id="step2">
+                <li id="step1.2">
                     You must choose in which mode you want to play: <b>Survival</b>, <b>Creative</b> or <b>Hardcore</b>.
-                    <ul><b><u>Survival :</u></b> Search for resources, craft, gain levels, health and hunger</ul>
-                    <ul><b><u>Hardcore :</u></b> Same as Survival Mode, locked at hardest difficulty, and one life only</ul>
-                    <ul><b><u>Creative :</u></b> Unlimited resources, free flying and destroy blocks instantly</ul>
+                    <ul><b><u>Survival :</u></b> Search for resources, craft, gain levels, health and hunger.</ul>
+                    <ul><b><u>Hardcore :</u></b> Same as Survival Mode, locked at hardest difficulty, and one life only.</ul>
+                    <ul><b><u>Creative :</u></b> Unlimited resources, free flying and destroy blocks instantly.</ul>
                 </li>
-                <li id="step3">
-                    Fourth type of difficulty are existing:
-                    <ul><b><u>Peaceful:</u></b> Hostile mobs cannot spawn, you cannot lose hunger and you automatically restore your health</ul>
-                    <ul><b><u>Easy:</u></b> Hostile mobs sometimes spawn </ul>
-                    <ul><b><u>Normal:</u></b> Hostile mobs often spawn </ul>
-                    <ul><b><u>Hard:</u></b> Hostile mobs always spawn </ul>
+                <li id="step1.3">
+                    Fourth type of difficulty exists:
+                    <ul><b><u>Peaceful:</u></b> Hostile mobs cannot spawn, you cannot lose hunger and you automatically restore your health.</ul>
+                    <ul><b><u>Easy:</u></b> Hostile mobs sometimes spawn. </ul>
+                    <ul><b><u>Normal:</u></b> Hostile mobs often spawn.</ul>
+                    <ul><b><u>Hard:</u></b> Hostile mobs always spawn. </ul>
                     <u>Remark:</u><br> Depending on the difficulty, differents parameters in-game can change, like the probability of villager to change into a zombie-villager after being killed by a zombie.
                 </li>
-                <li id="step4">
-                    Allows the <b>Cheats</b> means that you can use commands in game Every types of commands are actually existing like <u>/gamemode'</u> which you can change your mode in-game or <u>/experience</u> which you can give you experience.
+                <li id="step1.4">
+                    Allows <b>Cheats</b> means that you can use commands in-game. Every types of commands actually exists like <u>/gamemode'</u> which changes your gamemode or <u>/experience</u> which gives you experience.
                     <br>
-                    <u>Remark:</u><br> In the Minecraft's community, using the cheats are prohibited, do you really want to cheat on a game ? It's up to you !
+                    <u>Remark:</u><br> In Minecraft's community, using cheats are prohibited, do you really want to cheat in a game ? It's up to you !
                 </li>
-                <li id="step5">
-                    This section is one of the new of the 1.18. In fact, you can play with your textures in-game.
+                <li id="step1.5">
+                    This section was created by the 1.18 version. In fact, you can play with your textures in-game.
                 </li>
-                <li id="step6">
-                    This section allows you to modify if you want a lot of parameters in-game like the cycle day/night or keeping your inventory after your dead or not. By the command <u>/gamerule</u>, you can change during the game these parameters.
+                <li id="step1.6">
+                    This section allows you to modify if you want a lot of parameters in-game like the cycle day/night or keeping your inventory after your death. By the command <u>/gamerule</u>, you can change during the game these parameters.
                 </li>
                 <img src="../IMG/singleplayer_create_new_world_2.png" alt="View of create a new world part 2" class="img1">
-                <li id="step7">
-                    Each Minecraft world is unique and there are determinated by they <b>seed</b>. You can enter the number you want on it, the game will creates your world with it. Some seed are better than anothers so if you want to play in a specfic
-                    seed, enter the seed in the form.<br> With <u>/seed</u>, you can know the seed of your world and shared it !
+                <li id="step1.7">
+                    Each Minecraft world is unique and there are determinated by their <b>seed</b>. You can enter the number you want, the game will create your world with it. Some seeds are better than anothers so if you want to play in a specific seed,
+                    enter the seed in the form.<br> With <u>/seed</u>, you can know the seed of your world and share it !
                 </li>
-                <li id="step8">
-                    This sections allows you to have a world with or without structures. There is a lot of structures in Minecraft like villages of donjons. <br>
-                    <b>Playing without disable you to finish the game !</b>
+                <li id="step1.8">
+                    This section allows you to have a world with or without structures. There are many structures in Minecraft like villages or dunjeons. <br>
+                    <b>Playing without structures disable you to finish the game !</b>
                 </li>
-                <li id="step9">
-                    This parameter is very important because it allows you to choose between different types of world generations. <br> Fifth type of generations are existing:
-                    <ul><b><u>Default:</u></b> Normal world with every existing types of biomes </ul>
-                    <ul><b><u>Superflat:</u></b> Flat world that you can customize with presets parameters. Very useful in creative </ul>
-                    <ul><b><u>Large Biomes:</u></b> Same as the <b>Default</b> but the biomes generated will be bigger </ul>
-                    <ul><b><u>Amplified:</u></b> World with a lot of mountains and floating islands. Requieres a good computer.</ul>
+                <li id="step1.9">
+                    This parameter is very important because it allows you to choose between different types of world generations. <br> Five type of generations exist:
+                    <ul><b><u>Default:</u></b> Normal world with every type of biomes. </ul>
+                    <ul><b><u>Superflat:</u></b> Flat world that you can customize with presets parameters. Very useful in creative. </ul>
+                    <ul><b><u>Large Biomes:</u></b> Same as the <b>Default</b> but the biomes generated will be bigger. </ul>
+                    <ul><b><u>Amplified:</u></b> World with a lot of mountains and floating islands. Requires a good computer.</ul>
                     <ul><b><u>Single Biome:</u></b> World with only one biome that you can choose. </ul>
                 </li>
-                <li id="step10">
-                    Give you at the start a chest with some basic loot in it.
+                <li id="step1.10">
+                    Give you at the beginning a chest with some basic loot in it.
                 </li>
-                <li id="step11">
+                <li id="step1.11">
                     You can import settings from your device to play with your settings !
                 </li>
-                <li id="step12">
-                    After setting your parameters, click on <b>Create New World</b> and your aventure start ! <br> Click here to start the aventure !
+                <li id="step1.12">
+                    After setting your parameters, click on <b>Create New World</b> and your aventure starts ! <br> Click here to start the aventure !
                 </li>
-                <li id="step13">
+                <li id="step1.13">
                     If you click on <b>Cancel</b>, you will go back to the Home menu.
                 </li>
             </ul>
             <hr>
+            <h4 id="multiplayer"><u>Multiplayer:</u></h4>
+            <ul style="list-style-type: decimal;">
+                <p>
+                    You are actually in multiplayer's menu of Minecraft. <br> Here, you can join servers and play online !
+                </p>
+                <p>
+                    Be careful to always check if the version of the server allows the version of your Minecraft.
+                </p>
+                <img src="../IMG/multiplayer_minecraft.png" alt="View of multiplayer menu" class="img1">
+                <li id="step2.1">
+                    By clicking on <b>Add Server</b>, you can create a slot reserved for a server. <br> You can rename this slot and you should add the IP address of the server.
+                </li>
+                <li id="step2.2">
+                    Same thing by clicking on <b>Direct Connection</b> but without the special slot.
+                </li>
+                <li id="step2.3">
+                    After creating a slot for a server, you can edit it by clicking on <b>Edit</b> or delete it by clicking on <b>Delete</b>.
+                </li>
+                <li id="step2.4">
+                    You can join a server by selecting it then clicking on <b>Join Server</b> or just by double clicking on it.
+                </li>
+                <li id="step2.5">
+                    <b>Refresh</b> allows you to refresh the status and actualise each server on your list.
+                </li>
+            </ul>
+            <hr>
+            <h4 id="options"><u>Options:</u></h4>
         </div>
     </div>
 

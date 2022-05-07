@@ -107,10 +107,6 @@ ul li a {
     margin-top: 5%;
 }
 
-.ul_navigation li {
-    list-style-type: square;
-}
-
 .ul_navigation li a {
     font-size: 1em;
     color: rgb(0, 0, 0);
@@ -145,10 +141,6 @@ ul li a {
 
 #big_parts a:hover {
     text-decoration: underline;
-}
-
-.chat {
-    list-style-type: decimal;
 }
 
 
