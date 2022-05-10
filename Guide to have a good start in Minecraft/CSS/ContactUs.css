@@ -68,11 +68,6 @@ ul li a {
 
 /* Body */
 
-.body_content {
-    display: grid;
-    grid-template-columns: 0.75fr 2fr;
-}
-
 .navigation {
     text-align: center;
     padding: 0 5% 0 5%;
@@ -81,5 +76,49 @@ ul li a {
 
 .homeMenuContent {
     padding: 0 1% 0 3%;
-    margin: 0 3% 2% 2%;
+    margin: 0 3% 2% 3%;
+}
+
+.homeMenuContent h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card img {
+    height: 40%;
+    width: 40%;
+    align-self: center;
+}
+
+.card-body {
+    align-self: center;
+}
+
+.card {
+    background-color: rgb(213, 223, 239) !important;
+    border-color: rgb(213, 223, 239) !important;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.edit_button button {
+    width: 100%;
+    margin: 2%;
+}
+
+.about_author {
+    text-align: center;
 }
