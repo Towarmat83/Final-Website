@@ -94,7 +94,7 @@ ul li a {
     align-self: center;
 }
 
-.card {
+.homeMenuContent .card {
     background-color: rgb(213, 223, 239) !important;
     border-color: rgb(213, 223, 239) !important;
 }
