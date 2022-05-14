@@ -18,6 +18,7 @@ h1 {
 
 .navbar-brand {
     padding-bottom: 0;
+    cursor: default;
 }
 
 #welcome_img img {
