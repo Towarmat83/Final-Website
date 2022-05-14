@@ -1,0 +1,149 @@
+body,
+html {
+    height: 100%;
+    background-color: rgb(213, 223, 239);
+}
+
+ul li a {
+    font-size: 19px;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    cursor: default;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.language a {
+    padding-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.language i {
+    margin-top: 0.5%;
+}
+
+.language:hover {
+    color: black;
+    background-color: rgb(230, 223, 239);
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+.theme {
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+.theme a {
+    padding-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.theme i {
+    margin-top: 0.5%;
+}
+
+.theme:hover {
+    color: black;
+    background-color: rgb(230, 223, 239);
+}
+
+.theme a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding: 10px;
+}
+
+
+/* Body */
+
+.AventureContent {
+    padding: 0 1% 0 3%;
+    margin: 0 3% 2% 2%;
+}
+
+.AventureContent p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.AventureContent h3 {
+    text-decoration: underline;
+    margin-top: 5%;
+}
+
+.AventureContent ul p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.AventureContent ul li {
+    margin-left: 10%;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Return to the top page*/
+
+a#cRetour {
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    right: 20px;
+    opacity: 1;
+    z-index: 99999;
+    transition: all ease-in 0.2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+}
+
+a#cRetour:before {
+    content: "\25b2";
+}
+
+a#cRetour:hover {
+    background: rgba(0, 0, 0, 1);
+    transition: all ease-in 0.2s;
+}
+
+a#cRetour.cInvisible {
+    bottom: -35px;
+    opacity: 0;
+    transition: all ease-in 0.5s;
+}
+
+a#cRetour.cVisible {
+    bottom: 20px;
+    opacity: 1;
+}
